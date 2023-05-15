@@ -1,0 +1,39 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(212, 130, 185, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: #a36487;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color: rgb(80, 70, 70);
+    background-color: #200e18;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .round {
+    width: 10em;
+    height: 10em;
+    border: 2px solid red;
+    border-radius: 50%;
+    line-height: 10em;  /* подробнее про line-height */
+    text-align: center;  /* выравнять текст по середине по горизонтали */
+    background: mistyrose;
+  }
+  
+  p.text {margin-left:15px;}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Товар</title>
+    <head>
+        <style>
+   
+        .card {
+          position: relative;
+          border: 1px solid black;
+          box-shadow: 0 4px 8px 0 rgba(51, 2, 2, 0.2);
+          max-width: 300px;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          background: rgb(255, 255, 255);
+          background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgb(248, 215, 245) 150%);
+          clear: both;
+        }
+        
+        .price {
+          text-decoration: line-through;
+          float: right;
+          margin-left: -200px;
+          color:#a18092;
+          font-size: 15px;
+          position: relative;
+          top: -20px;
+          right: 15px;
+        }
+        .price2 {
+       float: right;
+       color:#a18092;
+       font-size: 15px;
+       position: relative;
+       top: -20px;
+       right: 15px;
+     }
+
+     .price3 {
+       position: relative;bottom: 10px;
+       color:#a18092;
+       font-size: 13px;
+       
+     }
+     .price4 {
+       margin-left: -140px;
+       color:#080808;
+       font-size: 15px;
+       position: relative;
+       top: 10px;
+     }
+
+     
+        .card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    color:white;
+    background-color: #995c7d;
+    text-align: center;
+    cursor: pointer;
+    width: 90%;
+    font-size: 15px;
+    border-radius: 5px
+    
+  }
+  
+  input {
+  background-color: rgb(194, 72, 119);
+  border: none;
+  border-radius:5px;
+  padding: 15px 110px;
+  margin: 4px 2px;
+  cursor: pointer;
+  right: -10px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px 1px #000;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  font-family: 'Times New Roman', Times, serif;
+  font-size:100%;
+  clear:both;
+}
+  
+
+  .round {
+    box-shadow: 0 2px 2px 0 rgba(51, 2, 2, 0.2);
+    margin-left:25px;
+    width: 3em;
+    height: 3em;
+    border: 1px solid rgb(245, 9, 9);
+    border-radius: 50%;
+    border-style: dashed;
+    line-height: 3em;  
+    text-align: center; 
+    background: rgb(252, 229, 250);
+    font-family: 'Times New Roman', Times, serif;
+    color: #db1c1c;
+    position: absolute;
+    top: 12px;
+  }
+  .round2 {
+    box-shadow: 0 2px 2px 0 rgba(51, 2, 2, 0.7);
+    width: 3em;
+    height: 3em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    line-height: 3em;  
+    text-align: center; 
+    background: rgb(238, 186, 208);
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #805c6e;
+    position: relative;right: -10px;
+    top: -10px;
+  }
+  P.fig { 
+   background-image: url(./images/ico-favorite.svg); 
+   width: 100px; 
+   height: 100px;
+   background-repeat: no-repeat;
+   position:absolute;
+   left: 237px;
+   top: 10px;
+   }
+ 
+   P.fig2 {
+    margin-left: 37px;
+    text-align:left; 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    top: 40px;
+   }
+  .element {
+    display: flex;
+    margin: 0 115px;
+    padding: 35px;
+  }
+
+  
+        </style>
+        </head>
+        <body>
+
+        <h1 style="text-align:center">Товары</h1>
+
+        <div class="element">
+        <div class="card">
+        <div class="round">-19%</div>
+        <p class="fig">
+        <p class="fig2">
+        <img src=".\\images\\product-2.png"  style="width:80%"></p>
+        <div class="round2">TOP</div>
+        <span class="price4"><b>101 красная роза</b></span><br>
+        <del  class="txt">
+        <span class="price"><a>2800 грн</a></span>
+        </del><br>
+        <span class="price2"><b>2280 грн</b></span>
+        <input type="button" value="Заказать">
+        <p></p>
+        <span class="price3"><u>Быстрый заказ</u></span>
+        </div>
+
+        <div class="card">
+          <div class="round">-19%</div>
+          <p class="fig">
+          <p class="fig2">
+          <img src=".\\images\\product-2.png"  style="width:80%"></p>
+          <div class="round2">TOP</div>
+          <span class="price4"><b>101 красная роза</b></span><br>
+          <del  class="txt">
+          <span class="price"><a>2800 грн</a></span>
+          </del><br>
+          <span class="price2"><b>2280 грн</b></span>
+          <input type="button" value="Заказать">
+          <p></p>
+          <span class="price3"><u>Быстрый заказ</u></span>
+          </div>
+
+          <div class="card">
+            <div class="round">-19%</div>
+            <p class="fig">
+            <p class="fig2">
+            <img src=".\\images\\product-2.png"  style="width:80%"></p>
+            <div class="round2">TOP</div>
+            <span class="price4"><b>101 красная роза</b></span><br>
+            <del  class="txt">
+            <span class="price"><a>2800 грн</a></span>
+            </del><br>
+            <span class="price2"><b>2280 грн</b></span>
+            <input type="button" value="Заказать">
+            <p></p>
+            <span class="price3"><u>Быстрый заказ</u></span>
+            </div>
+
+        </div>
+   
+</body>
+</html>
